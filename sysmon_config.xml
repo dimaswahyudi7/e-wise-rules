@@ -17,9 +17,9 @@
       <CommandLine condition="contains">notepad.exe</CommandLine>
     </ProcessCreate>
 
-    <NetworkConnect onmatch="include">
-      <DestinationHostname condition="contains any">crackeddownload,bagas31,kuyhaa</DestinationHostname>
-    </NetworkConnect>
+    <DnsQuery onmatch="include">
+      <QueryName condition="contains any">crackeddownload,bagas31,kuyhaa,gigapurbalingga,r3ndy</QueryName>
+    </DnsQuery>
 
 
   </EventFiltering>
