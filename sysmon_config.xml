@@ -18,8 +18,9 @@
     </ProcessCreate>
 
     <NetworkConnect onmatch="include">
-      <DestinationHostname condition="contains any">bagas31,kuyhaa,gigapurbalingga</DestinationHostname>
+      <DestinationHostname condition="contains any">crackeddownload,bagas31,kuyhaa</DestinationHostname>
     </NetworkConnect>
+
 
   </EventFiltering>
 </Sysmon>
