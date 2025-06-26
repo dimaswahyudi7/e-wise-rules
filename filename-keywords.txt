@@ -6,3 +6,4 @@ activator
 patch
 xforce
 trialreset
+test
