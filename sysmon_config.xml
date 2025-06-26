@@ -17,6 +17,9 @@
       <CommandLine condition="contains">notepad.exe</CommandLine>
     </ProcessCreate>
 
+    <NetworkConnect onmatch="include">
+      <DestinationHostname condition="contains any">bagas31,kuyhaa,gigapurbalingga,r3ndy</DestinationHostname>
+    </NetworkConnect>
 
   </EventFiltering>
 </Sysmon>
