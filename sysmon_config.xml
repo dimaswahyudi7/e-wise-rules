@@ -1,0 +1,17 @@
+<Sysmon schemaversion="4.82">
+  <EventFiltering>
+
+    <ProcessCreate onmatch="include">
+      <CommandLine condition="contains any">keygen.exe,crack.exe,kmsauto,activator</CommandLine>
+    </ProcessCreate>
+
+    <FileCreate onmatch="include">
+      <TargetFilename condition="contains any">Downloads,WinRAR</TargetFilename>
+    </FileCreate>
+
+    <NetworkConnect onmatch="include">
+      <DestinationHostname condition="contains any">bagas31,kuyhaa,gigapurbalingga</DestinationHostname>
+    </NetworkConnect>
+
+  </EventFiltering>
+</Sysmon>
