@@ -13,5 +13,10 @@
       <DestinationHostname condition="contains any">bagas31,kuyhaa,gigapurbalingga</DestinationHostname>
     </NetworkConnect>
 
+    <ProcessCreate onmatch="include">
+      <CommandLine condition="contains">notepad.exe</CommandLine>
+    </ProcessCreate>
+
+
   </EventFiltering>
 </Sysmon>
