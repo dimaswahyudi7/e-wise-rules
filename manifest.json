@@ -8,6 +8,7 @@
     {"path": "wazuh/lists/piracy_hashes.txt", "sha256": "REPLACE_SHA256_HASHES"},
     {"path": "wazuh/lists/piracy_ips.txt", "sha256": "REPLACE_SHA256_IPS"},
     {"path": "wazuh/lists/allow_vendors.txt", "sha256": "REPLACE_SHA256_VENDORS"},
+    { "path": "wazuh/lists/filename_keywords.txt", "sha256": "REPLACE_SHA256_KEYWORD"},
 
     {"path": "wazuh/local_rules.xml", "sha256": "REPLACE_SHA256_LOCALRULES"},
 
