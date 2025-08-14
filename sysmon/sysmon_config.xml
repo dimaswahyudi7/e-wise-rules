@@ -1,1 +1,26 @@
+<Sysmon schemaversion="4.82">
+  <EventFiltering>
 
+    <ProcessCreate onmatch="include">
+      <CommandLine condition="contains any">keygen.exe,crack.exe,kmsauto,activator</CommandLine>
+    </ProcessCreate>
+
+    <FileCreate onmatch="include">
+      <TargetFilename condition="contains any">Downloads,WinRAR</TargetFilename>
+    </FileCreate>
+
+    <NetworkConnect onmatch="include">
+      <DestinationHostname condition="contains any">bagas31,kuyhaa,gigapurbalingga</DestinationHostname>
+    </NetworkConnect>
+
+    <ProcessCreate onmatch="include">
+      <CommandLine condition="contains">notepad.exe</CommandLine>
+    </ProcessCreate>
+
+    <DnsQuery onmatch="include">
+      <QueryName condition="contains any">crackeddownload,bagas31,kuyhaa,gigapurbalingga,r3ndy</QueryName>
+    </DnsQuery>
+
+
+  </EventFiltering>
+</Sysmon>
