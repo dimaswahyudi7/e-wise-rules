@@ -1,0 +1,19 @@
+{
+  "version": "2025.08.14-1",
+  "files": [
+    {"path": "sysmon/sysmon_config.xml", "sha256": "REPLACE_SHA256_SYSMON"},
+
+    {"path": "wazuh/lists/piracy_domains.txt", "sha256": "REPLACE_SHA256_DOMAINS"},
+    {"path": "wazuh/lists/piracy_urls.txt", "sha256": "REPLACE_SHA256_URLS"},
+    {"path": "wazuh/lists/piracy_hashes.txt", "sha256": "REPLACE_SHA256_HASHES"},
+    {"path": "wazuh/lists/piracy_ips.txt", "sha256": "REPLACE_SHA256_IPS"},
+    {"path": "wazuh/lists/allow_vendors.txt", "sha256": "REPLACE_SHA256_VENDORS"},
+
+    {"path": "wazuh/local_rules.xml", "sha256": "REPLACE_SHA256_LOCALRULES"},
+
+    {"path": "scripts/e-wise-dns-scan.ps1", "sha256": "REPLACE_SHA256_DNSPS1"},
+    {"path": "scripts/e-wise-file-scan.ps1", "sha256": "REPLACE_SHA256_FILEPS1"},
+    {"path": "scripts/e-wise-scan_v2.ps1", "sha256": "REPLACE_SHA256_V2PS1"},
+    {"path": "scripts/e-wise-update.ps1", "sha256": "REPLACE_SHA256_UPDATEPS1"}
+  ]
+}
