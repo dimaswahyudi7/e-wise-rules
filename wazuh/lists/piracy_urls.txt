@@ -8,3 +8,4 @@ xforce
 trialreset
 test
 dimas
+detik
